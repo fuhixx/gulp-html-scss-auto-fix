@@ -1,0 +1,28 @@
+/*---------------------------------
+
+commonStyles
+
+---------------------------------*/
+/*
+width
+---------------------------------*/
+$text-max: pxtovwSmall(300);
+/*
+color
+---------------------------------*/
+$pure-black: #000;
+$pure-white: #fff;
+$white: #f2f2f2;
+$bright-brown: #c1bcb2;
+$brown: #604c3f;
+$bright-red: #ea6d4e;
+$red: #ce4949;
+// opacity color
+$brownOpacity: rgba(96, 76, 63, 0.5);
+$redOpacity: rgba(206, 73, 73, 0.5);
+/*
+font-size
+---------------------------------*/
+$very-big: pxtovwSmall(18);
+$big: pxtovwSmall(16);
+$small: pxtovwSmall(14);

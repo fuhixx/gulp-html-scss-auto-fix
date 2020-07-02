@@ -1,0 +1,30 @@
+/*
+hack line-height 1.2
+---------------------------------*/
+
+.u-lh12 {
+  line-height: 1.2;
+  // 確認用のコード↓
+  // font-size:14px;
+  // background: #f00;
+}
+
+.u-lh12:before,
+.u-lh12:after {
+  display: block;
+
+  width: 1px;
+  // /*   これがないとおかしくなる↓ */
+  height: 1px;
+
+  content: '';
+
+  // /*   これがないとおかしくなる↑ */
+}
+
+.u-lh12:before {
+  margin-bottom: -5px;
+}
+.u-lh12:after {
+  margin-top: -6px;
+}

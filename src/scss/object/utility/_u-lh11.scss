@@ -1,0 +1,28 @@
+/*
+hack line-height 1.1
+---------------------------------*/
+
+.u-lh11 {
+  line-height: 1.1;
+  // 確認用のコード↓
+  // font-size:14px;
+  // background: #f00;
+}
+
+.u-lh11:before,
+.u-lh11:after {
+  display: block;
+
+  width: 1px;
+  /*   これがないとおかしくなる↓ */
+  height: 1px;
+
+  content: '';
+  /*   これがないとおかしくなる↑ */
+}
+.u-lh11:before {
+  margin-bottom: -2px;
+}
+.u-lh11:after {
+  margin-top: -2px;
+}

@@ -1,0 +1,27 @@
+/*---------------------------------
+
+function
+
+---------------------------------*/
+// 基準となるビューポートを設定
+$viewportVerySmall: 320;
+$viewportSmall: 400;
+$viewportMiddle: 600;
+$viewportBig: 1000;
+
+// 最小サイズのスマートフォン 320px
+@function pxtovwVerySmall($num, $width: $viewportVerySmall) {
+  @return (1vw * $num / $width * 100);
+}
+// 中サイズのスマートフォン 400px
+@function pxtovwSmall($num, $width: $viewportSmall) {
+  @return (1vw * $num / $width * 100);
+}
+// タブレット 600px
+@function pxtovwMiddle($num, $width: $viewportMiddle) {
+  @return (1vw * $num / $width * 100);
+}
+// パソコン 1000px
+@function pxtovwBig($num, $width: $viewportBig) {
+  @return (1vw * $num / $width * 100);
+}

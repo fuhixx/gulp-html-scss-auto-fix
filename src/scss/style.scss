@@ -1,0 +1,39 @@
+/*---------------------------------
+
+foundation
+
+---------------------------------*/
+@import "foundation/_reset.scss";
+@import "foundation/_function.scss";
+
+
+
+
+
+
+@import "foundation/_commonStyles.scss";
+
+
+
+/*---------------------------------
+
+layout
+
+---------------------------------*/
+/*---------------------------------
+
+object
+
+---------------------------------*/
+/*
+component
+---------------------------------*/
+@import "object/component/**";
+/*
+project
+---------------------------------*/
+@import "object/project/**";
+/*
+utility
+---------------------------------*/
+@import "object/utility/**";

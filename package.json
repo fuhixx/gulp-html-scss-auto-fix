@@ -1,0 +1,42 @@
+{
+  "name": "gulp-html-scss-auto-fix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "fuhixx by fuhito-yamamoto",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^4.0.2",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-htmlhint": "^3.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-prettier": "^3.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Explorer 11",
+    "iOS 9.0",
+    "Android 4.1"
+  ]
+}
