@@ -1,3 +1,5 @@
+ライセンス：
+
 BSD License (3-clause BSD License)
 
 作成者や著作権者は、製品に対しての義務や責任を何ら負わないこと
@@ -6,3 +8,12 @@ BSD License (3-clause BSD License)
 
 
 ライセンス表示の解説引用：https://qiita.com/shibukk/items/67ad0a5eda5a94e5c032
+
+
+使い方：
+
+・githubから全ファイルをダウンロード
+
+・その全ファイルの「一つ上の階層に」ファイルを適当に作ってください。（つまり、空のフォルダで囲います）
+
+・それで使えるようになります。「npx gulp」などで実行してください。
